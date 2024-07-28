@@ -30,6 +30,8 @@ AutoAlert is a security application that detects when a thief steals your car an
 4. For iOS:
   npm run ios
 
+
+5. In order to run the backend, use pip to install cv2, twilio, and inference. You must also sign up with twilio to create your own unique API key. 
 Dependencies
 
   The project relies on the following major dependencies:
