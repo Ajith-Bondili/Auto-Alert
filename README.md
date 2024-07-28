@@ -7,7 +7,6 @@ AutoAlert is a security application that detects when a thief steals your car an
 ## Table of Contents
 
 - [Installation](#installation)
-- [Dependencies](#dependencies)
 
 ## Installation
 
