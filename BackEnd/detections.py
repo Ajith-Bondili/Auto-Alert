@@ -40,7 +40,7 @@ def monitor_car_and_person(video_path):
                 break
 
             if frame_number % 60 == 0:  # Process every 30th frame
-                frame_path = f'/Users/rishik/Desktop/Backend/media/frame_{frame_number}.jpg'
+                frame_path = f'YOUR FILE PATH_{frame_number}.jpg'
                 cv2.imwrite(frame_path, frame)
 
                 try:
@@ -90,7 +90,7 @@ def send_alerts():
             print(f"Error sending message: {e}")
 
 # Usage
-video_path = '/Users/rishik/Desktop/Backend/media/IMG_7769.mp4'
+video_path = 'YOUR FILE PATH'
 monitor_car_and_person(video_path)
 
 print(f"Total alerts triggered: {total_alerts}")
