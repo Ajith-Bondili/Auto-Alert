@@ -7,7 +7,6 @@ AutoAlert is a security application that detects when a thief steals your car an
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [What it Does](#what-it-does)
 - [How We Built It](#how-we-built-it)
 - [Challenges We Ran Into](#challenges-we-ran-into)
 - [What’s Next for AutoAlert](#whats-next-for-autoalert)
@@ -26,10 +25,6 @@ AutoAlert leverages OpenCV and Twilio to detect potential car thefts and notify 
 - Customizable settings: Users can customize detection times, input car details, and configure alert settings through the mobile app.
 - Mobile app: A React Native app allows users to manage their settings and receive alerts on the go.
 
-
-## What it Does
-
-With AutoAlert, you can keep your car safe. Through real-time tracking, it can detect if someone is being suspicious near your car or trying to actively steal it. When someone is detected trying to steal your car or acting suspiciously, it will alert you and the police via SMS because every second matters, helping you keep your car safe.
 
 ## How We Built It
 
