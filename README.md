@@ -5,7 +5,7 @@ AutoAlert is a security application that detects when a thief steals your car an
 
 <p align="center">
   <img src="FrontEnd/Assets/GreetingPage.png" alt="Home Screen" width="300" />
-  <img src="FrontEnd/Assets/CarInfoPage.png" alt="Car Details" width="300" />
+  <img src="Frontend/Assets/CarInfoPage.png" alt="Car Details" width="300" />
 </p>
 
 ## Table of Contents
