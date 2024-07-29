@@ -3,6 +3,18 @@ AutoAlert
 
 AutoAlert is a security application that detects when a thief steals your car and automatically sends a message to the police and the car owner. The app includes customizable features for daily protection and car information management.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [What it Does](#what-it-does)
+- [How We Built It](#how-we-built-it)
+- [Challenges We Ran Into](#challenges-we-ran-into)
+- [What’s Next for AutoAlert](#whats-next-for-autoalert)
+- [Installations](#Installations)
+
+
+  
 ## Introduction
 
 AutoAlert leverages OpenCV and Twilio to detect potential car thefts and notify the authorities and users instantly. The system captures video footage, processes it to identify suspicious activities, and sends real-time alerts to users via a mobile app built with React Native.
@@ -31,3 +43,35 @@ Initially, we had no experience with React Native or iOS app development. A sign
 ## What’s Next for AutoAlert
 
 In the future, we plan to develop our own hardware camera integrated with our software, providing a seamless experience for users. Additionally, we aim to offer a subscription service for customers using third-party camera systems. We also intend to partner with government agencies, including law enforcement, and other security companies to collaboratively reduce criminal activity related to automobiles.
+
+## Installations
+
+1. Clone the repository:
+```
+git clone https://github.com/your-username/autoalert.git
+cd autoalert
+```
+
+3.	Install the dependencies:
+
+```
+npm install
+```
+
+3.	Start the project:
+```
+npm start
+```
+
+5.	For iOS:
+```
+npm run ios
+```
+
+7.	To run the backend, use pip to install the required Python packages:
+```
+pip install opencv-python twilio
+```
+
+9.	Sign up with Twilio to create your own unique API key and update the config.py file with your Twilio credentials.
+
